@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="#fff">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="请输入跳过原因"
+        android:background="@null"
+        android:inputType="textPersonName"
+        android:text="无网络跳过"
+        android:textColor="#333"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="取消"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:background="@drawable/bg_def_bttuon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_confirm"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bg_def_bttuon"
+        android:text="确认"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_marginLeft="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_cancel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

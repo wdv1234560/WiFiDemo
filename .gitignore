@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+/zxing-android-embedded/build/
+/arms/build/
