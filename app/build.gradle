@@ -25,5 +25,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(path: ':arms')
-//    implementation 'com.github.wdv1234560:WiFiDemo:1.0.1'
+//    implementation 'com.github.wdv1234560:WiFiDemo:1.0.2-3bc8aedc2e-1'
 }
